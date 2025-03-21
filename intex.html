@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Token-backed Tutoring</h1>
+        
+        <div class="card">
+            <h2>Find a Tutor</h2>
+            <input type="text" id="tutorAddress" placeholder="Tutor's Wallet Address">
+            <button onclick="findTutor()">Search</button>
+        </div>
+
+        <div class="card">
+            <h2>Hire a Tutor</h2>
+            <input type="text" id="hours" placeholder="Hours">
+            <input type="text" id="rate" placeholder="Rate in Tokens">
+            <button onclick="hireTutor()">Hire</button>
+        </div>
+
+        <div class="card">
+            <h2>Release Payment</h2>
+            <input type="text" id="sessionId" placeholder="Session ID">
+            <button onclick="releasePayment()">Release</button>
+        </div>
+
+        <p id="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
