@@ -38,3 +38,10 @@ The vision of this project is to create a transparent, efficient, and decentrali
 ## Contract Address : 0xb6934bc9bf6B789DD7aDd86e1D0598Ba343A4439
 
 ![image](https://github.com/user-attachments/assets/864527ab-3955-4494-a59c-53ea7e2485e8)
+
+
+
+##Frontend
+![image](https://github.com/user-attachments/assets/5257ee9c-a850-4384-95cb-522542424737)
+![image](https://github.com/user-attachments/assets/0ad5dde5-ea85-4bab-9338-bb2d44812d99)
+
